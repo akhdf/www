@@ -1,0 +1,16 @@
+/* CSR 내용영역 */
+#content .content_area{width: 1200px; border-top: 1px solid #ccc;font-family: 'Nanum Gothic', sans-serif; margin-bottom: 150px;}
+    
+.content_area h3{font-size:50px; font-weight:700; margin-bottom:100px;text-align: center; margin-top:150px;}
+.content_area h4{font-size:30px; font-weight:600; margin-bottom:50px;text-align: center;}
+.content_area .sub_text_01{font-size:24px; font-weight:600; margin-bottom:100px;line-height:45px;text-align: center;}
+.content_area .sub_text_01::after{content: ""; display: block; background: rgba(19,101,187,.5);width: 3px; height:100px; position:relative; margin:100px 600px;}
+.content_area img{margin-bottom: 50px;}
+.content_area p{display: block; font-size: 18px;line-height:30px;margin-bottom: 100px;}
+.content_area strong{color: #1365bb;}   
+.content_area ul{overflow: hidden;}
+.content_area dl {margin:0 10px 40px; padding:5px; border-radius:15px; text-align:center; background:rgba(19,101,187,.5); transition:all .4s ease-out;float: left; width:370px;}
+.content_area dl:hover {background:#1365bb;}
+.content_area dt{font-size:20px; color:#fff; margin:13px 0;}
+.content_area dd{background:#fff; font-size:14px; margin-top:1px; padding:30px 25px; color:#666;}
+.content_area dd:nth-last-child(1){border-radius:0 0 12px 12px;}

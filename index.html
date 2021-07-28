@@ -1,0 +1,351 @@
+<?
+	session_start();
+    @extract($_SESSION); 
+?>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>유한양행</title>    
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="common/css/common.css">
+    <link rel="stylesheet" href="maincss/main.css">
+    <script src="./mainjs/mainpopup.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <script src="common/js/prefixfree.min.js"></script>
+    <!--[if IE 9]>  
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="wrap">
+        <!-- 상단헤더영역 -->
+        <? include "./common/main_head.html" ?>
+        <div class="visual">
+            <div class="gallery">
+                <ul>
+                    <li class="link1"><a href="#"><img src="./images/main_01.jpg" alt=''></a></li>
+                    <li class="link2"><a href="#"><img src="./images/main_02.jpg" alt=''></a></li>
+                    <li class="link3"><a href="#"><img src="./images/main_03.jpg" alt=''></a></li>
+                    <li class="link4"><a href="#"><img src="./images/main_04.jpg" alt=''></a></li>
+                </ul>
+            </div>
+            <div class="gallery_text">
+                <ul>
+                  <li>GREAT,<br>GLOBAL YUHAN!</li> 
+                    <li class=flip>
+                      <div><div>Let me introduce you to various products of Yuhan.</div></div>
+                      <div><div>To care for patients through our research in medicine.</div></div>
+                      <div><div>Trust and honesty are the way Yuhan treats customers.</div></div>
+                    </li>
+               </ul>
+              </div>
+            <div class="dock">
+                <span class="mbutton  btn1"></span>
+                <span class="mbutton  btn2"></span>
+                <span class="mbutton  btn3"></span>
+                <span class="mbutton  btn4"></span>
+                <span class="ps"></span>
+            </div>
+        </div>
+
+        <article id="content">
+            <h2 class="hidden">본문콘텐츠영역</h2>
+            <!-- <div class="product_search">
+                <div class="item_search">
+                    <div class="search_box">
+                        <form action="search.php" method="POST" name="search_box">
+                            <h3><strong>product search</strong></h3>
+                            <div class="inp_box">
+                                <label class="hidden" for="inp_search">제품검색입력</label><input type="text" id="inp_search"
+                                    placeholder="제품명을 입력하세요">
+                                <input type="button" class="search_btn" value="검색">
+                            </div>
+
+                            <ul class="hashtag_list">
+                                <li><a href="sub2/sub2_1.html#product_01">#전문의약품</a></li>
+                                <li><a href="sub2/sub2_1.html#product_02">#일반의약품</a></li>
+                                <li><a href="sub2/sub2_1.html#product_03">#건강식품</a></li>
+                            </ul>
+                        </form>
+                    </div>
+                    <div class="pharmacy_search">
+                        <strong>find a product</strong>
+                        <p class="guide_message">(주)유한양행의 다양한 제품정보들을<br>쉽고 편리하게 찾아보세요.</p>
+                        <a href="sub2/sub2_1.html" class="link_search">view more<i class="fas fa-chevron-right"></i></a>
+                        <span class="border_top"></span>
+                        <span class="border_right"></span>
+                        <span class="border_bottom"></span>
+                        <span class="border_left"></span>
+                    </div>
+                </div>
+            </div> -->
+
+            <section class="content product">
+                <h3>product</h3>
+                <p>Let me introduce you to various products of Yuhan.</p>
+                <div class="product_list">
+                    <div class="product_01">
+                        <ul class="a1">
+                            <li>
+                                <a href="sub2/sub2_1.html#product_01"><img src="./images/product_01.jpg" alt="안플라그서방정"></a>
+                                <dl>
+                                    <dt>안플라그서방정</dt>
+                                    <dd>구분 : 전문의약품 > 순환기용약</dd>
+                                    <dd>효능군 : 기타의 혈액 및 체액용약</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <a href="sub2/sub2_1.html#product_01"><img src="./images/product_02.jpg" alt="안플라그서방정"></a>
+                                <dl>
+                                    <dt>클로그렐에이캡슐</dt>
+                                    <dd>구분 : 전문의약품 > 순환기용약</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <a href="sub2/sub2_1.html#product_01"><img src="./images/product_03.jpg" alt="안플라그서방정"></a>
+                                <dl>
+                                    <dt>클로그렐정</dt>
+                                    <dd>구분 : 전문의약품 > 순환기용약</dd>
+                                </dl>
+                            </li>
+                        </ul>
+                        <ul class="a2">
+                            <li>
+                                <a href="sub2/sub2_1.html#product_02"><img src="./images/product_07.jpg" alt="안플라그서방정"></a>
+                                <dl>
+                                    <dt>파모큐정</dt>
+                                    <dd>구분 : 일반의약품 > 소화기관용</dd>
+                                    <dd>효능군 : 소화성궤양용제</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <a href="sub2/sub2_1.html#product_02"><img src="./images/product_08.jpg" alt="안플라그서방정"></a>
+                                <dl>
+                                    <dt>유한비타민씨디정</dt>
+                                    <dd>구분 : 일반의약품 > 비타민.무기질제</dd>
+                                    <dd>효능군 : 기타의 비타민제</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <a href="sub2/sub2_1.html#product_02"><img src="./images/product_09.jpg" alt="안플라그서방정"></a>
+                                <dl>
+                                    <dt>마그비스피드액</dt>
+                                    <dd>구분 : 일반의약품 > 비타민.무기질제</dd>
+                                    <dd>효능군 : 기타의 비타민제</dd>
+                                </dl>
+                            </li>
+                        </ul>
+                        <ul class="a3">
+                            <li>
+                                <a href="sub2/sub2_1.html#product_03"><img src="./images/product_13.jpg" alt="안플라그서방정"></a>
+                                <dl>
+                                    <dt>센스밸런스</dt>
+                                    <dd>구분 : 건강기능식품 >기능성 건강</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <a href="sub2/sub2_1.html#product_03"><img src="./images/product_14.jpg" alt="안플라그서방정"></a>
+                                <dl>
+                                    <dt>유한 알티지 식물성오메가3</dt>
+                                    <dd>구분 : 건강기능식품 > 눈 건강</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <a href="sub2/sub2_1.html#product_03"><img src="./images/product_15.jpg" alt="안플라그서방정"></a>
+                                <dl>
+                                    <dt>마그비스피드액</dt>
+                                    <dd>구분 : 일반의약품 > 비타민.무기질제</dd>
+                                    <dd>효능군 : 기타의 비타민제</dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="p_dock">
+                        <span class="p_mbutton  btn01"></span>
+                        <span class="p_mbutton  btn02"></span>
+                        <span class="p_mbutton  btn03"></span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content rnd">
+                <h3>R&D</h3>
+                <p>To care for patients through our research in medicine.</p>
+                <div class="rnd_inner">
+                    <ul>
+                        <li class="rndevent rnd01">
+                            <img src="./images/rnd_01.jpg" alt="">
+                            <dl class="boxcaption">
+                                <dt>주요설비<i class="fas fa-tools"></i></dt>
+                                <dd>유한양행은 국내 제약사 중 가장 넓은 연구소와<br>
+                                    우수 연구시설을 보유하고 있습니다.</dd>
+                                <dd><a href="sub4/sub4_4.html#ls_ms"><i class="fas fa-arrow-alt-circle-right"></i>LC-MS실</a></dd>
+                                <dd><a href="sub4/sub4_4.html#sample_analysis"><i class="fas fa-arrow-alt-circle-right"></i>시료분석실</a></dd>
+                                <dd><a href="sub4/sub4_4.html#ivis"><i class="fas fa-arrow-alt-circle-right"></i>IVIS spectrum</a></dd>
+                                <dd><a href="sub4/sub4_4.html#cell_culture"><i class="fas fa-arrow-alt-circle-right"></i>세포배양실</a></dd>
+                                <dd><a href="sub4/sub4_4.html#one-pot"><i class="fas fa-arrow-alt-circle-right"></i>One-pot 과립기</a></dd>
+                                <dd><a href="sub4/sub4_4.html#xrd"><i class="fas fa-arrow-alt-circle-right"></i>XRD</a></dd>
+                                <dd><a href="sub4/sub4_4.html#nmr"><i class="fas fa-arrow-alt-circle-right"></i>NMR Spectrometer</a></dd>
+                                <dd><a href="sub4/sub4_4.html#akta"><i class="fas fa-arrow-alt-circle-right"></i>단백질 정제시스템</a></dd>
+                                <dd><a href="sub4/sub4_4.html#multilayer"><i class="fas fa-arrow-alt-circle-right"></i>다층타정기</a></dd>
+                            </dl>
+                            <span class="rnd_buttonMenu01"></span>
+                            <a href="sub4/sub4_4.html" class="more rnd_more01">view more</a>
+                        </li>
+                        <li class="rndevent rnd02">
+                            <img src="./images/rnd_02.jpg" alt="">
+                            <dl class="boxcaption">
+                                <dt>협력활동<i class="far fa-handshake"></i></dt>
+                                <dd>유한양행은 파트너와 R&D분야의<br>
+                                    전문지식과 경험을 나누고 협력하고자 합니다.</dd>
+                                <dd><a href="sub4/sub4_3.html#cooperation"><i class="fas fa-arrow-alt-circle-right"></i>해외 다국적 기업</a></dd>
+                                <dd><a href="sub4/sub4_3.html#cooperation"><i class="fas fa-arrow-alt-circle-right"></i>임상시험센터</a></dd>
+                                <dd><a href="sub4/sub4_3.html#cooperation"><i class="fas fa-arrow-alt-circle-right"></i>임상시험수탁시관</a></dd>
+                                <dd><a href="sub4/sub4_3.html#cooperation"><i class="fas fa-arrow-alt-circle-right"></i>바이오텍 기업</a></dd>
+                                <dd><a href="sub4/sub4_3.html#cooperation"><i class="fas fa-arrow-alt-circle-right"></i>정부출연 연구소</a></dd>
+                                <dd><a href="sub4/sub4_3.html#cooperation"><i class="fas fa-arrow-alt-circle-right"></i>대학 연구기관</a></dd>
+                            </dl>
+                            <span class="rnd_buttonMenu02"></span>
+                            <a href="sub4/sub4_3.html" class="more rnd_more02">view more</a>
+                        </li>
+                        <li class="rndevent rnd03">
+                            <img src="./images/rnd_03.jpg" alt="">
+                            <dl class="boxcaption">
+                                <dt>로드맵<i class="fas fa-globe"></i></dt>
+                                <dd>과감한 인적·재정적 지원을 통하여 국내 시장을<br>
+                                    뛰어넘는 글로벌 약물을 개발하도록 하겠습니다.</dd>
+                                <dd><a href="sub4/sub4_2.html#competitiveness"><i class="fas fa-arrow-alt-circle-right"></i>글로벌 R&D 경쟁력</a></dd>
+                                <dd><a href="sub4/sub4_2.html#competitiveness"><i class="fas fa-arrow-alt-circle-right"></i>글로벌 신약 Pipeline</a></dd>
+                                <dd><a href="sub4/sub4_2.html#competitiveness"><i class="fas fa-arrow-alt-circle-right"></i>글로벌 시장진입</a></dd>
+                            </dl>
+                            <span class="rnd_buttonMenu03"></span>
+                            <a href="sub4/sub4_2.html" class="more rnd_more03">view more</a>
+                        </li>
+                        <li class="rndevent rnd04">
+                            <img src="./images/rnd_04.jpg" alt="">
+                            <dl class="boxcaption">
+                                <dt>연구활동<i class="fas fa-chart-line"></i></dt>
+                                <dd>국내외 관련전문가(key opintion leader)와 협력을 통하여<br>
+                                    글로벌 경쟁 확보를 위한 전략을 수립하고 있습니다.</dd>
+                                <dd><a href="sub4/sub4_1.html#research_activities_01"><i class="fas fa-arrow-alt-circle-right"></i>전략질환군에 대한 선택과 집중</a></dd>
+                                <dd><a href="sub4/sub4_1.html#research_activities_02"><i class="fas fa-arrow-alt-circle-right"></i>개방형 혁신을 통한 성공 확률 제고</a>
+                                </dd>
+                                <dd><a href="sub4/sub4_1.html#research_activities_03"><i class="fas fa-arrow-alt-circle-right"></i>글로벌 파트너쉽을 통한 연구개발 역량 강화</a>
+                                </dd>
+                            </dl>
+                            <span class="rnd_buttonMenu04"></span>
+                            <a href="sub4/sub4_1.html" class="more rnd_more04">view more</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="content csr">
+                <div class="csr_wrap">
+                    <h3>CSR</h3>
+                    <p>Great Yuhan, Global Yuhan.</p>
+                    <div class="csr_inner box">
+                        <div class="box1"></div>
+                        <div class="box2"><span></span></div>
+                        <div class="box3"></div>
+                        <ul>
+                            <li>
+                                <a href="sub5/sub5_1.html">
+                                    <dl>
+                                        <dt>준법경영</dt>
+                                        <dd>부패방지경영시스템<br>
+                                            적응이 가능할 수 있도록<br>
+                                            기획·설계되어 있습니다.</dd>
+                                    </dl>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub5/sub5_2.html">
+                                    <dl>
+                                        <dt>사회공헌</dt>
+                                        <dd>기업의 가치를<br>
+                                            사회와 함께 나누고자<br>
+                                            노력하고 있습니다.</dd>
+                                    </dl>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub5/sub5_3.html">
+                                    <dl>
+                                        <dt>환경경영</dt>
+                                        <dd>환경영영시스템인<br>
+                                            iso14001을<br>
+                                            구축하고 있습니다.</dd>
+                                    </dl>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content notice_wrap">
+                <div class="notice">
+                    <? include "lib/func.php"; ?>
+                    <h3 class="notice_title">notice</h3>
+                    <p class="notice_sub_text">Trust and honesty are the way Yuhan treats customers.</p>
+                    <ul>
+                        <? latest_article("greet", 2, 30, 1); ?>
+                    </ul>
+                        <a href="greet/list.php" class="notice_more">view more</a>
+                </div>
+                <div class="news">
+                    <h3 class="news_title">news</h3>
+                    <p class="news_sub_text">A promise to strive<br>
+                        for the health of the people.</p>
+                    <ul>
+                        <li><a href="greet/list.php"><img src="./images/news.jpg" alt=""></a></li>
+                        <li><a href="greet/list.php"></a><p>안티푸라민 모델 손흥민 발탁</p></li>
+                    </ul>
+                    <a href="greet/list.php" class="news_more">view more</a>
+                </div>
+            </section>
+        </article>
+
+        <!-- 하단푸터영역 -->
+        <? include "./common/main_foot.html" ?>
+    </div>
+
+    <!-- 공지팝업 -->
+    <div id="showimage" style="z-index:40;position:absolute;width:322px;left:100px;top:320px;">
+        <script>
+            function closeWin() {
+                var chk = document.getElementById('Notice')
+                if (chk.checked) {
+                    setCookie("Notice", "done", 1); //1이란 숫자는 1일간 안보임을 뜻합니다. 날짜는 자신에 맞게 수정하세요
+                }
+            }
+            if (getCookie("Notice") == "done") {
+                hidebox();
+            }
+        </script>
+        <div>
+            <img src="popup/pop01.png" alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. 
+                홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다." />
+        </div>
+        <div style="font-size:12px;text-align:center;color:#fff;">
+            <input type="checkbox" name="Notice" id="Notice" value="" title="오늘은 이창을 열지 않음 선택상자">
+            <label for="Notice">오늘은 이창을 열지 않음.</label>
+            <a style="color: #fff;" href="#" onclick="closeWin();hidebox();return false;"> [close] </a>
+        </div>
+    </div>
+
+    <!--JQuery-->
+    <script src="common/js/jquery-1.12.4.min.js"></script>
+    <script src="common/js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="common/js/fullnav.js"></script>
+    <script src="mainjs/move.js"></script>
+</body>
+
+</html>

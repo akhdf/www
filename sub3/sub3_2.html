@@ -1,0 +1,265 @@
+<?
+	session_start();
+    @extract($_SESSION); 
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>유한양행;주식정보</title>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub3common.css">
+    <link rel="stylesheet" href="./css/sub3_2content.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    <!--[if IE 9]>  
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+
+
+</head>
+
+<body>
+    <div class="wrap">
+        <!-- 서브헤더영역 -->
+        <? include "../common/sub_head.html" ?>
+        <div class="visual"><img src="./common/images/visual_sub3.jpg" alt=""></div>
+
+        <div class="sub_menu">
+            <h3>투자정보</h3>
+            <p>Conduct transparent and fair<br>management activities based on ethical awareness.</p>
+            <ul class="sub_nav">
+                <li class=""><a href="sub3_1.html">재무정보</a></li>
+                <li class="current"><a href="sub3_2.html">주식정보</a></li>
+                <li class=""><a href="sub3_3.html">사업보고서</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">
+                    HOME &gt; 투자정보 &gt; <strong>주식정보</strong>
+                </div>
+                <h2>주식정보</h2>
+                <p>(주)유한양행의 주식정보를 알려드립니다.</p>
+            </div>
+            <div class="content_area">
+                <ul class="tab_menu">
+                    <li class="current"><a class="tab tab1" href="#">주식현황</a></li>
+                    <li><a class="tab tab2" href="#">일반현황</a></li>
+                </ul>
+
+                <div class="investment">                  
+                        <h3>주식현황</h3>
+                        <div class="stock_01">
+                        <h4>주식의 총수</h4>
+                        <p>2020.12.31 현재 / 단위: 주</p>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th scope="col" class="first">구분</th>
+                                    <th scope="col">보통주</th>
+                                    <th scope="col">우선주</th>
+                                    <th scope="col">합계</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="first">발행주식의 총수</td>
+                                    <td>66,856,810 </td>
+                                    <td>1,180,940 </td>
+                                    <td>68,037,750 </td>
+                                </tr>
+                                <tr>
+                                    <td class="first">자기주식주</td>
+                                    <td>5,682,165 </td>
+                                    <td>32,600 </td>
+                                    <td>5,714,765 </td>
+                                </tr>
+                                <tr>
+                                    <td class="first">유통주식주</td>
+                                    <td>61,174,645 </td>
+                                    <td>1,148,340</td>
+                                    <td>62,322,985</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="stock_02">
+                        <h4>배당</h4>
+                        <p>한국채택국제회계기준(K-IFRS) 연결 기준으로 작성</p>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th scope="col" class="first">구분</th>
+                                    <th scope="col">주식의 종류</th>
+                                    <th scope="col">제98기<br>(20.01.01~<br>20.12.31)</th>
+                                    <th scope="col">제97기<br>(19.01.01~<br>19.12.31)</th>
+                                    <th scope="col">제96기<br>(18.01.01~<br>18.12.31)</th>
+                                    <th scope="col">제95기<br>(17.01.01~<br>17.12.31)</th>
+                                    <th scope="col">제94기<br>(16.01.01~<br>16.12.31)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td colspan="2" class="first">주당액면가액 (원)</td>
+                                    <td>1,000</td>
+                                    <td>5,000</td>
+                                    <td>5,000</td>
+                                    <td>5,000</td>
+                                    <td>5,000</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="first">(연결)당기순이익 (백만원)</td>
+                                    <td>190,402</td>
+                                    <td>36,612</td>
+                                    <td>58,335</td>
+                                    <td>109,637</td>
+                                    <td>161,249</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="first">(별도)당기순이익 (백만원)</td>
+                                    <td>193,310</td>
+                                    <td>53,953</td>
+                                    <td>81,494</td>
+                                    <td>110,732</td>
+                                    <td>122,401</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="first">(연결)주당순이익(원) </td>
+                                    <td>2,943</td>
+                                    <td>610</td>
+                                    <td>5,056</td>
+                                    <td>10,176</td>
+                                    <td>15,704</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="first">현금배당금총액 (백만원)</td>
+                                    <td>24,941</td>
+                                    <td>23,781</td>
+                                    <td>22,722</td>
+                                    <td>21,750</td>
+                                    <td>20,546</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="first">주식배당금총액 (백만원)</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="first">(연결) 현금배당성향(%)</td>
+                                    <td>13.1</td>
+                                    <td>65.0</td>
+                                    <td>39.0</td>
+                                    <td>19.8</td>
+                                    <td>12.7</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="2" class="first">현금배당수익률 (%)</td>
+                                    <td class="second">보통주</td>
+                                    <td>0.5</td>
+                                    <td>0.8</td>
+                                    <td>0.9</td>
+                                    <td>0.9</td>
+                                    <td>1.0</td>
+                                </tr>
+                                <tr>
+                                    <td class="second">우선주</td>
+                                    <td>0.6</td>
+                                    <td>0.9</td>
+                                    <td>1</td>
+                                    <td>1.1</td>
+                                    <td>1.2</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="2" class="first">주당 현금배당금 (원)</td>
+                                    <td class="second">보통주</td>
+                                    <td>400</td>
+                                    <td>2000</td>
+                                    <td>2,000</td>
+                                    <td>2,000</td>
+                                    <td>2,000</td>
+                                </tr>
+                                <tr>
+                                    <td class="second">우선주</td>
+                                    <td>410</td>
+                                    <td>2,050</td>
+                                    <td>2,050</td>
+                                    <td>2,050</td>
+                                    <td>2,050</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="investment">
+                    <h3>일반현황</h3>
+                    <div class="stock_03">
+                    <h4>일반현황</h4>
+                    <p>2021.03.19 현재</p>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="first">계열명</th>
+                                <td>유한양행</td>
+                                <th scope="row">대표이사</th>
+                                <td>조욱제</td>
+                                <th scope="row">설립일</th>
+                                <td>1926.06.20</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row" class="first">상장일</th>
+                                <td>1962.11.01</td>
+                                <th scope="row">명의개서대리인</th>
+                                <td>한국예탁결제원</td>
+                                <th scope="row">공고신문</th>
+                                <td>동아일보</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="first">결산기</th>
+                                <td>12월</td>
+                                <th scope="row">업종</th>
+                                <td>의약품제조업</td>
+                                <th scope="row">감사인</th>
+                                <td>한영회계법인</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="first">종업원수</th>
+                                <td>1,868</td>
+                                <th scope="row">주거래 은행</th>
+                                <td>신한은행</td>
+                                <th scope="row">감사의견</th>
+                                <td>적정의견</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                </div>
+            </div>
+        </article>
+        <!-- 서브푸터영역 -->
+        <? include "../common/sub_foot.html" ?>
+    </div>
+    <!--JQuery-->
+    <script src="../common/js/jquery-1.12.4.min.js"></script>
+    <script src="../common/js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="../common/js/fullnav.js"></script>
+    <script src="./js/sub3.js"></script>
+</body>
+
+</html>

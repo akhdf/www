@@ -1,0 +1,68 @@
+/* 기업소개 내용영역 */
+#content .content_area{width: 1200px; text-align: center;font-family: 'Nanum Gothic', sans-serif;}
+
+/* 쓰리댑 */
+.content_area .slideMenu{overflow: hidden;position: relative;margin: 0 auto 150px; text-transform: uppercase; width:100%}
+.content_area .slideMenu li{float: left;position: relative;width: 33.3%; text-align: center;}
+.content_area .slideMenu li a{display: block;position: relative;font-size: 18px;transition: all .5s;}
+.content_area .slideMenu li a:hover,
+.content_area .slideMenu .current{color: #1365bb;font-weight: 600;}
+.content_area .slideMenu::after,
+.content_area .slideMenu li a::after{content: '';display: block;background: #ccc;transition: all .5s;}
+.content_area .slideMenu::after{position: absolute;top: 38px; z-index: 2; width:100%;height: 1px;}
+.content_area .slideMenu li a::after{position: relative;transition: all .5s ease;z-index: 10; margin: 10px auto;width: 10px;height: 10px;border-radius: 50%;}
+.content_area .slideMenu .current::after,
+.content_area .slideMenu li a:hover::after{background: #1365bb;border-radius: 2px;}
+
+.content_area .slideMenu.navOn{position: fixed;width: 100%; height: 80px;top: 0;left: 0;background: #1365bb;z-index: 100;border-bottom:1px solid #eee;}
+.content_area .slideMenu.navOn ul{width:1200px;margin: 0 auto;}
+.content_area .slideMenu.navOn li{width:400px;}
+.content_area .slideMenu.navOn li:hover a{color:#ccc;}
+.content_area .slideMenu.navOn a{color: #fff; padding: 30px 0;font-size: 18px;}
+.content_area .slideMenu.navOn::after,
+.content_area .slideMenu.navOn li a::after{content: ''; display: none; background: #fff;}
+.content_area .slideMenu.navOn .spy{background: #fff; color: #1365bb;font-weight: 600;}
+.content_area .company_intro .boxMove{right:0; opacity: 1;} 
+
+/* 기업개요 */
+.content_area .con1{text-align: center;}
+.content_area h3{font-size:50px; font-weight:700; margin-bottom:100px;}
+.content_area .sub_text_01{font-size:24px; font-weight:700; margin-bottom:100px;line-height:45px;}
+.content_area strong{color:#1365bb}
+.content_area .sub_text_01::after{content: ""; display: block; background: rgba(19,101,187,.5);width: 3px; height:100px;position:relative; margin:100px 600px;}
+.content_area .sub_text_02{font-size:22px; font-weight:600;line-height: 40px;margin-bottom:100px}
+.content_area p{display: block; line-height:30px; margin-bottom:100px}
+.content_area .sub_text_03{font-size:22px; font-weight:600;line-height: 40px;margin-bottom:100px}
+.company_table{overflow: hidden;position: relative;right:250px;  width:1700px;}
+.company_table img{margin-bottom: 500px;}
+.company_table table{margin: 0 auto;border-top: 2px solid #1365bb;
+width:950px; background: #fff;position: absolute;top:570px;left: 22%;}
+.company_table tr{border-bottom: 1px solid #ddd;}
+.company_table th{padding-left: 60px}
+.company_table td{padding: 20px 250px}    
+
+/* 인사말 */
+.content_area .con2{text-align: center;margin-bottom:150px;}
+.content_area .main_text_02{font-size:50px; font-weight:700; margin-bottom:100px;}
+.con2 .sub_text_02::after{content: ""; display: block; background: rgba(19,101,187,.5);width: 3px; height:100px;position:relative; margin:150px 600px;}
+/* ceo message -webkit-box */
+.content_area .ceo{overflow: hidden;background: rgba(19,101,187,.04); width:100%;position: relative;}
+.content_area .ceo_inner{font-family: 'Nanum Myeongjo', serif; float: left;text-align: justify; margin: 100px 0 20px 50px;line-height: 36px;}
+.content_area .ceo_text1{font-size: 22px;font-weight: 900; margin-bottom: 50px;}
+.content_area .ceo_text2{font-size: 18px;line-height: 30px; margin-bottom: 80px;}
+.content_area .ceo_text3{font-size: 22px;font-weight: 900; left: 730px;position: relative; top:-50px;}
+.con2 img{float: right;width: 465px;height: 640px;position: relative;top:20px;}
+
+/* 기업비전 */
+.con3{text-align: center; margin-bottom: 150px;}
+.con3 .sub_text_02{margin-bottom:150px}
+.con3 .vision{overflow: hidden; margin-bottom: 100px;}
+.con3 .vision img{float: left; width: 600px; height: 300px;}
+.con3 .vision_content{float: right; margin-top:60px;text-align: left;}
+.con3 .vision_main{color: #00864b; font-size: 24px; line-height: 33px;margin-bottom: 50px; font-weight: 600;}
+.con3 .vision_text{font-size: 22px; line-height: 33px;}
+.con3 .mission{overflow: hidden;}
+.con3 .mission_content{float: left;text-align: left;}
+.con3 .mission_main{color: #1365bb; font-size: 24px; line-height: 33px;margin-bottom: 50px; font-weight: 600;}
+.con3 .mission img{float: right; width: 600px; height: 300px;}
+

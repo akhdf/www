@@ -1,0 +1,43 @@
+#content .content_area{width: 1200px; border-top: 1px solid #ccc;font-family: 'Nanum Gothic', sans-serif; margin-bottom: 150px; color: #333;}
+
+#list_search{overflow: hidden; width: 900px;border: 1px solid #ccc; padding: 20px; margin: 100px auto 50px;}
+#list_search p{float: left;font-size: 14px;color: #666;margin-right: 10px;margin-top: 5px;}
+#list_search #list_search3{float: left;}
+#list_search .find{width: 150px;padding: 5px;margin-right: 20px; background: aliceblue;border: 1px solid #eee;}
+#list_search #list_search4{float: left}
+#list_search .search{width: 460px;padding: 6px 20px;margin-right: 20px;background: aliceblue;border: 1px solid #eee;}
+#list_search #list_search5{float: left}
+#list_search .but{width: 120px;padding: 5px;margin-right: 20px;background: rgba(19,101,187,.9);border: 1px solid #1365bb;color: #fff;}
+
+.scale_inner{overflow: hidden; width: 950px;margin: 0 auto 15px;}
+.scale_inner #list_search1{float: left;}
+.scale_inner .scale_list{float: right;}
+.scale_inner .scale_list .scale{width: 150px;padding: 5px;margin-right: 0;margin-bottom: 0; background: aliceblue;border: 1px solid #eee;}
+
+#list_top_title{clear: both; margin: 0 100px}
+#list_top_title ul{overflow: hidden; border-top: 1.5px solid #333; padding: 20px 0; background: aliceblue; border-bottom: 1px solid #ccc}
+#list_top_title ul li{float: left;font-size: 15px; font-weight: 700; text-align: center}
+#list_top_title ul li:nth-child(1){width: 80px}
+#list_top_title ul li:nth-child(2){width: 600px}
+#list_top_title ul li:nth-child(3){width: 100px}
+#list_top_title ul li:nth-child(4){width: 130px}
+#list_top_title ul li:nth-child(5){width: 90px}
+#list_content{margin: 0 100px}
+#list_content .list_item{overflow: hidden; border-bottom: 1px solid #ccc;}
+#list_content .list_item .list_item1{float: left; width: 80px; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 15px; padding: 20px 0}
+#list_content .list_item .list_item2{float: left; width: 600px; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 15px; padding: 20px 0}
+#list_content .list_item .list_item3{float: left; width: 100px; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 15px; padding: 20px 0}
+#list_content .list_item .list_item4{float: left; width: 130px; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 15px; padding: 20px 0}
+#list_content .list_item .list_item5{float: left; width: 90px; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 15px; padding: 20px 0}
+#list_content .list_item .list_item2 span{color: #f00;font-weight: 600;}
+#page_button{margin-top: 30px}
+#page_button #page_num{text-align: center; margin-bottom: 10px}
+#page_button #button{overflow: hidden;margin-bottom: 120px;}
+#page_button #button a{display: block;float: right;background: rgba(19,101,187,.9);border: 1px solid #1365bb;color: #fff;text-align: center;font-size: 15px; width: 100px;height: 18px;padding: 10px;margin-left: 10px;}
+
+
+
+
+
+
+

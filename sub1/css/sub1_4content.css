@@ -1,0 +1,23 @@
+/* 기업소개 내용영역 */
+#content .content_area{width: 1200px;font-family: 'Nanum Gothic', sans-serif;}
+    
+#map{position:relative; width:1200px; height:600px;border: 1px solid #ccc; margin-bottom:100px}
+
+.content_area p{font-size: 30px;color: #333;margin-bottom:20px;}
+.content_area p i{color: #1365bb; margin-right:20px}
+.map_inner{border: 1px solid #ccc; margin-bottom:100px;}
+.map_inner dl{font-size: 18px; color: #333; margin: 30px; overflow: hidden;}
+.map_inner dt{float: left; width: 270px}
+.map_inner dt span{margin-left: 10px; font-weight: 700}
+.map_inner dd{float: left}
+.map_inner dd::before{content: ""; display: block; width: 1px; height: 16px;background: #ccc; position:absolute; left: 400px;}
+.content_area .map_inner i{color: #1365bb; margin-right:10px}
+.table_wrap_01{margin-bottom: 100px}
+.table_wrap_02{margin-bottom: 200px}
+.content_area table{width: 100%; font-size: 20px; color: #333; margin-top: 20px; border-collapse: collapse;}
+.content_area tr{border-bottom: 1px solid #ccc}
+.content_area thead{border-top: 1px solid #666}
+.content_area thead tr th{background: #f1f1f1; padding: 25px 0}
+.content_area thead tr th:nth-last-of-type(1){border-left: 1px solid #ccc}
+.content_area tbody tr th{padding: 40px}
+.content_area tbody tr td{padding-left: 30px; border-left: 1px solid #ccc}

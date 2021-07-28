@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+/* font-family: 'Nanum Gothic', sans-serif; font-weight:700 */
+#content{background: #f5f6f8;width: 100%;font-family: 'Nanum Gothic', sans-serif;}
+.inner{width: 800px;margin: 0 auto;position: relative;overflow: hidden;}
+#content form{margin: 100px auto 50px;background: #f5f6f8;padding: 50px;border-radius: 15px;}
+.logo{display: block; width: 212px; height: 50px; background: url(../../common/images/header_logo_b.png) center no-repeat;margin: 0 0 -12px 40px;}
+.logo a{display:block; width:212px; height:50px;margin:0 auto;text-indent: -999px; overflow:hidden;}
+#content form p{margin-left: 390px;margin-bottom: 10px;}
+#content form p>span{margin-right: 10px;}
+#loadtext{position: absolute;right: 105px;top: 243px;}
+#loadtext2{position: absolute;right: 105px;top: 507px;}
+table{width: 90%; margin: 0 auto 40px;}
+th,td{border: 1px solid #ccc; padding: 15px 10px;}
+th{width: 30%; background: #f2f4fb;}
+td{width: 70%; background: #fff;}
+span{color: rgb(255, 0, 0);margin-left: 10px;}
+input, select{padding: 8px; border-radius: 2px;font-size: 16px; border: 1px solid #bec7e8;width: 180px; outline: none;}
+table tr:nth-child(6) select{width: 100px;}
+table tr:nth-child(6) input{width: 127px;}
+table tr:nth-child(7) input{width: 180px;}
+.button{text-align: center;margin-bottom: 250px; margin-left: 45px;}
+.button .ok,.button button{display: inline-block;width: 200px;line-height: 45px;padding: 8px 0;border: none;background: #1365bb;color: #fff;font-size: 16px;cursor: pointer; margin-right: 20px;}
+.button .cancel{display: inline-block;width: 200px;line-height: 45px;padding: 8px 0;border: none;background: #999;color: #fff;font-size: 16px;cursor: pointer}

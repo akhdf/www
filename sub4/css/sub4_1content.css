@@ -1,0 +1,43 @@
+/* R&D 내용영역 */
+#content .content_area{width: 1200px; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 150px; position: relative;}
+
+.content_01{overflow: hidden; margin-bottom: 170px; position: relative; left: -140px; top: 0; opacity: 0; transition: all 1s}
+.content_02{overflow: hidden; margin-bottom: 170px; position: relative; left: 140px; top: 0; opacity: 0; transition: all 1s}
+.content_03{overflow: hidden; margin-bottom: 170px; position: relative; left: -140px; top: 0; opacity: 0; transition: all 1s}
+.content_area div.boxMove{top: 0; left: 0; opacity: 1}      
+
+.main_img{background-size: cover; height: 450px;background: url(../images/content1/experiment.jpg) no-repeat; background-position-y: 0; animation: imgani 15s linear infinite;}
+@keyframes imgani {0% { background-size: 100% auto; }75% { background-size: 110% auto; }100% { background-size: 100% auto;}}
+.content_area p{font-size:24px; font-weight:700; margin-bottom:120px;line-height:45px; text-align: center; opacity:0;transition:all .4s; transform: translate(245px,-160px);width:900px; background: rgba(255,255,255,.4); padding:30px;}
+.content_area:hover p{opacity:1;transition-delay: 1.2s;transform: translate(125px,-160px);}
+.circle{position: relative;}
+.circle::after{content: ''; width: 700px; height: 700px; position:absolute; top:0;left:250px; z-index: -2; border-radius: 50%;animation: out_circle 30s linear infinite;}
+@keyframes out_circle {from {border: 3px dashed rgba(19,101,187,.5); transform: rotate(0);}to {border: 3px dashed red; transform: rotate(360deg);}}
+
+.circle .outline li{font-size:20px; font-weight: 600; background:#fff;text-align: center; border: 10px solid #ccc;width: 250px; height: 250px; border-radius: 50%}
+.circle .outline li:hover{background:#fff;border: 10px dashed rgba(19,101,187,.5);width: 250px; height: 250px; border-radius: 50%;}
+.circle .outline::after{content: ''; display: block; z-index: -1; opacity: 0; position: absolute; left: 600px; top: 350px; transform: translate(-50%, -50%); width: 300px; height: 300px; background: #00864b; border-radius: 50%; animation: in_circle 4s infinite ease-out;}
+@keyframes in_circle{0% { opacity:.9 } 100% { width:400px; height:400px; opacity:0;}}
+.circle .outline::before{content: ''; width:300px;height:300px; position: absolute; top:200px;left:450px;background: url(../images/content1/logo.jpg) no-repeat; border-radius: 50%;}
+.circle .outline li:nth-of-type(1){position: absolute; left:470px; top:-120px;}
+.circle .outline li:nth-of-type(1)::after{content: '';display: block; width:100px; height:100px; border-radius: 50%; position: absolute; top:260px;left:-240px; opacity:.8;background: url(../images/content1/circle_cells.jpg) no-repeat;}
+.circle .outline li:nth-of-type(2){position: absolute; left:170px; top:380px;}
+.circle .outline li:nth-of-type(2)::after{content: '';display: block;width:100px; height:100px; border-radius: 50%; position: absolute; top:260px;left:370px; opacity:.8;background: url(../images/content1/circle_microscope.jpg) no-repeat;}
+.circle .outline li:nth-of-type(3){position: absolute; left:760px; top:380px;}
+.circle .outline li:nth-of-type(3)::after{content: '';display: block;width:100px; height:100px; border-radius: 50%; position: absolute; top:-260px;left:90px; opacity:.8;background: url(../images/content1/circle_global.jpg) no-repeat;}
+.circle .outline i{font-size: 90px; color:#333; margin-top:40px; margin-bottom:10px}
+.circle .outline li:hover i{color:#1365bb; transform: scale(1.1);}
+.content_01{overflow: hidden;margin-top: 1040px;position: relative;}
+.content_01 .line{background: red; width: 900px; height:4px; position: absolute; top: 305px; left:510px;animation: extend-line 4s infinite .7s normal;}
+.content_02{overflow: hidden;margin-top: 150px;position: relative;}
+.content_02 .line{background: red; width: 900px; height:4px;position: absolute; top: 305px; right:510px;animation: extend-line 4s infinite .7s normal;}
+.content_03{overflow: hidden;margin: 150px 0;position: relative;}
+.content_03 .line{background: red; width: 900px; height:4px; position: absolute; top: 305px; left:510px;animation: extend-line 4s infinite .7s normal;}
+@keyframes extend-line{from{width:10px; opacity: 3;} to{width:700px;opacity: 0;}}
+.content_area dl{float: left; text-align: justify; margin:220px 0 0 30px; width: 530px}    
+.content_area dt{font-size: 22px;font-weight: 600; margin-bottom: 50px;color:#333;}
+.content_area dd{font-size: 18px; line-height: 30px;color:#666;}
+.content_area span{font-size: 50px; font-weight: 700; margin-right: 15px;color:#666}
+.content_area strong{color: #1365bb;}
+.content_01 img, .content_02 img, .content_03 img{float:left; box-shadow: -15px 15px 15px .5px #999; margin:0 30px 50px;}
+.content_02 img{float:right;box-shadow: 15px 15px 15px .5px #999;}

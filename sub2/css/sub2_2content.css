@@ -1,0 +1,8 @@
+/* 상품소개 내용영역 */
+#content .content_area{width: 1200px; font-family: 'Nanum Gothic', sans-serif;}
+
+.content_area ul{overflow: hidden; z-index: 10; margin-bottom: 150px;border: 1px solid #1365bb; width:100%}
+.content_area ul li{float: left; transition: all .5s ease-in;}
+.content_area ul li a{display: block; width: 400px; padding: 20px 0;font-weight:500; font-size: 20px;color: #333;background: rgba(255,255,255,.7); text-align: center;}
+.content_area ul li a:hover{color: #fff; background: rgba(19,101,187,.9);}
+.content_area ul .current{color: #fff; background: rgba(19,101,187,.9);}

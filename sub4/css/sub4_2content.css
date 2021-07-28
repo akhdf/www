@@ -1,0 +1,19 @@
+/* R&D 내용영역 */
+#content .content_area{width: 1200px; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 150px; position: relative;}
+        
+.main_img{background-size: cover; height: 450px;background: url(../images/content2/global.jpg) no-repeat;background-position-y: 0; animation: imgani 15s linear infinite;}
+@keyframes imgani {0% {background-size: 100% auto;}75% {background-size: 110% auto;}100% {background-size: 100% auto;}}    
+.content_area p{font-size:20px; font-weight:700; line-height:45px; text-align: center; color:#fff;transition:all .4s; background: rgba(0,0,0,.4); padding:30px 25px;animation: textani 15s linear infinite;}
+@keyframes textani{from{transform: translate(0,-185px); opacity: 1;}to{transform: translate(0,-470px);opacity: 0;}}
+.content_area strong{color: #1365bb;}
+.content_area ul{margin-bottom:150px}
+.content_area li{position: relative;}
+.content_area li:last-child{margin-bottom:0;}
+.content_area dl{clear: both;position: relative; overflow:hidden}
+.content_area dt{width: 210px;height: 140px; text-align: center; margin:20px 20px 100px;color:#fff;padding-top:70px;background: rgba(0,134,75, 0.8);border-radius: 50%; font-size:24px; font-weight:700;float: left; line-height: 36px; border: 8px solid rgba(0,134,75, 0.6); }
+.content_area dt::after{content: ''; display: block; z-index: -1; opacity: 0; position: absolute; left:133px; top: 135px; transform: translate(-50%, -50%); width: 210px;height:210px; background: rgba(0,134,75, 0.8); border-radius: 50%; animation: in_circle 4s infinite ease-out;}
+@keyframes in_circle{0% { opacity:.9 } 100% { width:280px; height:280px; opacity:0;}}
+.content_area dd{width:800px; height: 150px;padding:50px 50px 0; position: relative;margin-top:30px;background: rgba(0,134,75, 0.1);float: right;line-height: 35px; font-size:18px;animation: boxani 10s normal;}
+@keyframes boxani{from{transform: translate(-150px,0); opacity: 0;}to{transform: translate(0,0);opacity: 1;}}
+@keyframes extend-line{from{width:0; opacity: 0;} to{width:50px;opacity: 3;}}
+

@@ -1,0 +1,16 @@
+/* 투자정보 내용영역 */
+#content .content_area{width: 1200px;margin-bottom:150px;font-family: 'Nanum Gothic', sans-serif;}
+    
+.content_area p{font-size:50px; font-weight:700; margin-bottom:40px;}
+.business_report .file{width: 50px; height: 50px;}
+.content_area table{width: 100%; font-size: 20px; color: #333; border-collapse: collapse; text-align:center}
+.content_area tr{border-bottom: 1px solid #ccc}
+.content_area thead{border-top: 2px solid #666}
+.content_area thead th{background: rgba(19,101,187,.1); padding: 40px 0;border-left: 1px solid #ccc;}
+.content_area tbody td{border-left: 1px solid #ccc; padding: 30px;text-align: center;color: #666;}
+.content_area tbody th{display:block; padding: 40px 0; font-weight:500;color: #666;}
+.content_area .first{border-left:0}
+.content_area .second{text-align:left}
+.content_area .business_report{margin-bottom: 20px;}
+.content_area .page_button{font-size:25px; margin-right:500px}
+.content_area i{color: #1365bb;}

@@ -1,0 +1,44 @@
+/* 고객센터 내용영역 */
+#content .content_area{width: 1200px; border-top: 1px solid #ccc;font-family: 'Nanum Gothic', sans-serif; margin-bottom: 150px; color: #333;}
+
+.row{margin-left: -15px;margin-right: -15px;}
+.row:before, :after{box-sizing: border-box;}
+.form-group{margin-bottom: 15px;}
+.col-xs-12{width: 100%;}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12{float: left;}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{position: relative;min-height: 1px;padding-left: 15px;padding-right: 15px;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{margin: 0;padding: 0; border: 0;font-size: 100%;}
+label{display: inline-block;font-weight: 700; margin-bottom: 12px;margin-left: 8%;}
+.form-control{display: block;width: 80%;margin-left: 7%;height: 34px;padding: 6px 12px;font-size: 14px;line-height: 1.42857143;color: #555;background-color: rgba(19,101,187,0.1);background-image: none;border: 1px solid #ccc;border-radius: 4px;box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;}
+input, button, select, textarea{font-family: inherit;}
+button, input, optgroup, select, textarea{font: inherit;margin: 0;}
+.clearfix:after, .container:after, .container-fluid:after, .row:after, .form-horizontal .form-group:after, .btn-toolbar:after, .btn-group-vertical>.btn-group:after, .nav:after, .navbar:after, .navbar-header:after, .navbar-collapse:after, .pager:after, .panel-body:after, .modal-footer:after {clear: both;}
+.clearfix:before, .clearfix:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical>.btn-group:before, .btn-group-vertical>.btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-footer:before, .modal-footer:after{content: " ";display: table;}
+.help-block{display: block;margin-top: 5px;margin-bottom: 10px;color: #737373;}
+.btn-lg, .btn-group-lg>.btn{padding: 13px 80px;font-size: 18px;line-height: 1.33;border-radius: 6px;}
+.btn-success{color: #fff;background: #1365bb;}
+.btn{margin-left: 35%;display: inline-block;margin-bottom: 0;font-weight: 400;text-align: center;vertical-align: middle;cursor: pointer;background-image: none;border: 1px solid transparent;white-space: nowrap;user-select: none;}
+input, button, select, textarea{font-family: inherit;}
+button, html input[type=button], input[type=reset], input[type=submit]{-webkit-appearance: button;}
+button, select{text-transform: none;}
+button{overflow: visible;}
+button, input, optgroup, select, textarea{font: inherit;margin: 0;}
+.mail_box{width: 800px;margin: 0 auto;border: 1px solid #ccc;padding: 80px 20px;}
+.row:nth-child(4) textarea{padding: 130px 10px;}
+.content_area span{color: rgb(255, 0, 0); margin-left: 10px;margin-right: 10px;}
+.content_area ul{overflow: hidden;}
+.content_area li:nth-child(1){margin-left: 70px;font-size: 0.875em;color: #255aa6;}
+.main ul{overflow: hidden;}
+.main li:nth-child(1){float: left;font-size: 24px;margin: 100px 0 18px 195px; color: #333;}
+.main li:nth-child(2){float: right; margin-top: 122px;margin-bottom: 10px;margin-right: 16%;}
+.alert-success{margin: 0 auto 20px;width: 600px;color: #255aa6;background: #f2f2f2;padding: 20px;border-radius: 5px;}
+.close{float: right;border: 0;background: #255aa6;color: #fff;border-radius: 5px;}
+#content .agreement{width: 840px;margin: 0 auto 50px;border: 1px solid #ccc;}
+#content .cs_not_allowed{cursor: not-allowed!important}
+#content .policy{padding: 30px;overflow-y: scroll;height: 100px;color: #666;}
+#content .check{border-top: 1px solid #ccc;padding: 20px 100px;font-size: 14px;color: #666;font-weight: 600;}
+#content .check input[type=checkbox]{display: none;}
+#content .check input[type=checkbox] + label{cursor: pointer}
+#content .check input[type=checkbox] + label::before{display: inline-block;width: 18px;height: 18px;background: aliceblue;border: 2px solid #ccc;border-radius: 50%;content: '';margin: 0px 15px -6px 0px ;}
+/* 체크 눌렀을 때 */
+#content .check input[type=checkbox]:checked + label::before{background: url(../../member/images/checked_bg.png) center center no-repeat;border: 2px solid #ccc;background: #2185f0;} 

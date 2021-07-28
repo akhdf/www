@@ -1,0 +1,17 @@
+.content_area #write_form{width: 1000px; margin: 0 auto; font-family: 'Nanum Gothic', sans-serif; font-size: 16px;border-top:1px solid #ccc; padding: 100px 100px 0;}
+.col1{margin: 5px 0; width: 200px; font-weight: 700; background: #efeff1; float: left; text-align: center; padding: 10px; margin-right: 10px}
+.col2{margin: 5px 0; float: left}
+.col3{float: right; padding-top: 15px}
+#write_row1 .col2{padding-top: 10px; color: #666; font-weight: 700; margin-left: 10px}
+#write_row1{overflow: hidden}
+#write_row2{overflow: hidden}
+#write_row3{overflow: hidden; margin-bottom: 40px;}
+#write_row2 input{border: solid #ccc 1px; padding: 10px; width: 748px}
+#write_row3 textarea{border: solid #ccc 1px; padding: 10px; width: 748px; height: 400px; margin-top: 5px}
+#write_row3 .col1{height: 232px; padding-top: 180px}
+#write_button{overflow: hidden; width: 1000px; margin: 0 auto 120px}
+#write_button a{display: block;float: right;background: rgba(19,101,187,.9);border: 1px solid #1365bb;color: #fff;text-align: center;font-size: 15px;width: 75px;padding: 11.5px;margin-left: 10px;}
+#write_button a:hover{background: aliceblue; color: #1365bb;width: 78px;}
+#write_button input{display: block; float: right; background: rgba(19,101,187,.9);border: 1px solid #1365bb; color: #fff; text-align: center;font-size: 15px; width: 100px; padding: 10px; margin-left: 10px; cursor: pointer;}
+#write_button input:hover{background: aliceblue; color: #1365bb; width: 100px;}
+
