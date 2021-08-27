@@ -35,7 +35,10 @@
 		{echo("<script>
 				 window.alert('검색할 단어를 입력해 주세요!');
 			     history.go(-1);
-				</script>");
+				</script>
+                </head>
+                </html>
+                ");
 		exit;}
 	$sql = "select * from greet where $find like '%$search%' order by num desc";
 	}else   //처음 레코드를 읽어올때 (검색하지 않았을때)
@@ -89,8 +92,8 @@
                     <option value='name'>이름</option>
 				</select>
             </div>
-			<div id="list_search4"><input type="text" name="search" class="search" placeholder="검색어를 입력하세요"></div>
-			<div id="list_search5"><input type="submit" value="검색" class="but"></div>
+			<div id="list_search4"><label class="hidden" for="search__">검색어입력</label><input type="text" id="search__" name="search__" class="search" placeholder="검색어를 입력하세요"></div>
+			<div id="list_search5"><label class="hidden" for="but">검색</label><input type="submit" value="검색" id="but" name="but" class="but"></div>
 		</div>
 		</form>
 		<div class="scale_inner">
@@ -154,7 +157,7 @@ if ($num_ripple)
    for ($i=1; $i<=$total_page; $i++)
    {if ($page == $i)     // 현재 페이지 번호 링크 안함
 		{echo "<b> $i </b>";}
-		else{echo "<a href='list.php?page=$i&scale=$scale'> $i </a>";}      
+		else{echo "<a href='list.php?page=$i&scale=$scale'> $i </a>";}    
    }
 ?>			
 			&nbsp;&nbsp;&nbsp;&nbsp;다음 ▶

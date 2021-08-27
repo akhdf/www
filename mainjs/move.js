@@ -4,6 +4,7 @@ $(document).ready(function() {
     var imageCount=4;   //이미지개수
     var cnt=1;   //이미지 순서
     var onoff=true; // true=>타이머 동작중 , false=>동작하지 않을때
+    
     $('.btn1').css('background','rgba(19,101,187,.5)'); //첫번째 불켜
     $('.btn1').css('height','30');
     $('.gallery .link1').fadeIn('slow'); //첫번째 이미지 보인다..
@@ -100,9 +101,10 @@ $(document).ready(function() {
     var p_cnt=1;  //이미지 순서 1 2 3 4 5 4 3 2 1 2 3 4 5 ...
     var p_direct=1;  //1씩 증가(+1)/감소(-1)
     var p_position=0; //겔러리 무비의 left값 0 -1000 -2000 -3000 -4000
-    var p_onoff=true; // true=>타이머 동작중 , false=>동작하지 않을때       
+    var p_onoff=true; // true=>타이머 동작중 , false=>동작하지 않을때 
+         
       $('.btn01').css({'background':'#1365bb','width':'30'}); //첫번째 불켜
-      $('.product_list .a1').fadeIn('slow');  //첫번째 텍스트만 보여라~~~  
+      $('.product_list .product_inner').fadeIn('slow');  //첫번째 텍스트만 보여라~~~  
    function p_moveg(){
     p_cnt+=p_direct;  //카운트가 1 2 3 4 5 4 3 2 1 2 3 4 5 ......//각각의 카운트에 대한 left 좌표값을 처리
         if(p_cnt==1){p_position=0;}
@@ -132,7 +134,7 @@ $(document).ready(function() {
             $('.product_01').animate({left:-2400},'slow');
             p_cnt=3;
             p_direct=-1;}  
-     $('.product_list .a'+p_cnt).fadeIn('slow');  //자기 자신만 이미지가 보인다
+     $('.product_list .product_inner'+p_cnt).fadeIn('slow');  //자기 자신만 이미지가 보인다
     for(var i=1;i<=p_imageCount;i++){
      $('.btn0'+i).css({'background':'#1365bb','width':'16'}); //버튼 모두불꺼
      }
@@ -142,6 +144,24 @@ $(document).ready(function() {
      if(p_onoff==false){p_onoff=true;}  
      });
   });
+  
+  $(document).ready(function(){
+    var box_cnt=[];
+    for(var i=0; i<box_cnt; i++){box_p[i]=box_set+box_size*i}
+    $('.p_dock .lr_btn').click(function(event){
+        event.preventDefault();
+        var $target=$(event.target);
+        if($target.is('.p_dock .next')){
+            if (onoff==1){onoff=0; m_slide_toleft();};
+            m_slide_do();
+            m_slide_toleft();
+        } else if($target.is('.p_dock .before')){
+            if (onoff==0){onoff=1; m_slide_toright();};
+            m_slide_toright();
+            m_slide_do();
+        };
+    });
+});
   
   
 //R&D  

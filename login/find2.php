@@ -1,7 +1,10 @@
 <?
    session_start();
 ?>
-    <meta charset="UTF-8">
+<!DOCTYPE html>
+<html lang="ko">
+<meta charset="utf-8"/>
+<title>유한양행</title>
 <?
   @extract($_GET); 
   @extract($_POST); 
@@ -20,6 +23,7 @@ $hp3='2222'
              window.alert('아이디를 입력하세요');
              history.go(-1);
            </script>
+           </html>
          ");
          exit;
    }
@@ -124,9 +128,6 @@ $hp3='2222'
            <strong>* 로그인 후 비밀번호를 변경해주세요.</strong>";
             
         $sql = "update member set pass=password('$ranpass') where id='$id' and name='$name' and hp='$hp'";
-        $result = mysql_query($sql, $connect);
-        }
-        
-        
+        $result = mysql_query($sql, $connect);}
    }          
 ?>

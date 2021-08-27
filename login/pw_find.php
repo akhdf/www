@@ -9,7 +9,7 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>서대문자연사박물관-비밀번호찾기</title>
+    <title>유한양행</title>
     <link rel="stylesheet" href="../common/css/common.css">
 <link rel="stylesheet" href="css/pw_find.css">
 <script src="https://kit.fontawesome.com/f8a0f5a24e.js" crossorigin="anonymous"></script>

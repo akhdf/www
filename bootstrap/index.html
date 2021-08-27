@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JO MALONE LONDON</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="app_icon.png">
+    <link rel="apple-touch-startup-image" href="startup.png">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <style>@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');</style>
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/animatescroll.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script>
+        // <![CDATA[
+        try {
+            window.addEventListener('load', function () {
+                setTimeout(scrollTo, 0, 0, 1);
+            }, false);
+        } catch (e) { }
+	// ]]>
+    </script>
+    <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+    <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body data-spy="scroll" data-target="#navbar-example" data-offset="50" id="topMove">
+    <div class="wrap">
+        <div id="skipNav">
+            <a href="#content">본문 바로가기</a>
+            <a href="#navbar-example">글로벌 네비게이션 바로가기</a>
+        </div>
+
+        <div class="container-fluid">
+            <header id="headerArea">
+                <h1 class="hidden">JO MALONE LONDON</h1>
+                <nav id="navbar-example" class="navbar navbar-default navbar-fixed-top">
+                    <h2 class="hidden">글로벌네비게이션</h2>
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-example-js-navbar-scrollspy">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="index.html"><img src="./images/logo.png" alt="logo"></a>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse bs-example-js-navbar-scrollspy">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#menu1" onclick="$('#menu1').animatescroll();">
+                                        <h3>AHOUT</h3>
+                                    </a></li>
+                                <li><a href="#menu2" onclick="$('#menu2').animatescroll();">
+                                        <h3>OUR VALUES</h3>
+                                    </a></li>
+                                <li><a href="#menu3" onclick="$('#menu3').animatescroll();">
+                                        <h3>OUR STORIES</h3>
+                                    </a></li>
+                                <li><a href="#menu4" onclick="$('#menu4').animatescroll();">
+                                        <h3>MEET OUR STYLISTS</h3>
+                                    </a></li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container -->
+                </nav>
+            </header>
+            <div class="main_visual">
+                <div id="carousel-example-generic" class="carousel slide">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+                        <div class="item active"><img src="./images/visual1.jpg" alt="First slide"></div>
+                        <div class="item"><img src="./images/visual2.jpg" alt="Second slide"></div>
+                        <div class="item"><img src="./images/visual3.jpg" alt="Third slide"></div>
+                    </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                        <span class="icon-prev"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                        <span class="icon-next"></span>
+                    </a>
+                </div>
+            </div>
+            <article id="content">
+                <h2 class="hidden">본문 콘텐츠영역</h2>
+                <div class="scrollcontent">
+                    <div class="wp1 delay-05s" id="menu1">
+                        <div class="about text-center delay-05s">
+                            <h3>About</h3>
+                            <p>ill your life with scent. British bespoke fragrances. For her. For him. For the home.
+                                Immaculately wrapped in our signature box. Create an individual statement.
+                                An understated style. Defined by an unconventional sense of sophistication. With taste
+                                that is rarified, yet a touch audacious. Timeless and elegant…but always infused with a
+                                charming dash of wit and whimsy.
+                                It is exactly these distinctly British qualities that are the heritage, and heart. Jo
+                                Malone London has become a name internationally synonymous with all that is most coveted
+                                in British style.</p>
+                        </div>
+                        <div class="container delay-05s">
+                            <div class="row">
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="./images/about5.jpg" alt="...">
+                                        <div class="caption">
+                                            <p>From the crisp of the tissue paper to the last loop of the bow, it has to
+                                                be just right. Whether it’s a token of appreciation or the grandest of
+                                                gestures, each gift is presented in an iconic box as famous as our
+                                                fragrance.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="./images/about2.jpg" alt="...">
+                                        <div class="caption">
+                                            <p>‘I was reading Metamorphoses by Ovid and had arrived at the part where a
+                                                goddess was praying and transforming people into flowers, which was
+                                                where the idea for the work came from’ delighted by the perfect timing.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hidden-xs col-sm-6 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="./images/about1.jpg" alt="...">
+                                        <div class="caption">
+                                            <p>Think of as your ‘welcome home’, the scent for any hour, the style for
+                                                any place. Fresh Fig & Cassis recalls a ‘sunlit morning’ and the late
+                                                summer nostalgia of fig trees embraced by the sun with a freshness on
+                                                the breeze.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hidden-xs col-sm-6 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="./images/about6.jpg" alt="...">
+                                        <div class="caption">
+                                            <p>When the time came to create a new collection of candles specially for
+                                                the home, we didn’t have to look much further than our headquarters, a
+                                                Georgian townhouse in the heart of Marylebone.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- container -->
+                    </div><!-- menu1 -->
+                    <div class="wp2 delay-05s" id="menu2">
+                        <h3 class="text-center">Our Values</h3>
+                        <div class="container">
+                            <ul class="nav nav-pills nav-justified">
+                                <li class="active"><a href="#home" data-toggle="tab">Our Charity Mission</a></li>
+                                <li><a href="#tab1" data-toggle="tab">Our Sustainable Practice</a></li>
+                                <li><a href="#tab2" data-toggle="tab">Our People & Our Workplace</a></li>
+                            </ul>
+
+                            <div class="tab-content">
+                                <div class="tab-pane active row" id="home">
+                                    <img class="col-xs-5 col-md-4" src="./images/Our_Values1.jpg" alt="Our Charity Mission">
+                                    <dl class="col-xs-7 col-md-8">
+                                        <dt>Our Charity Mission</dt>
+                                        <dd>
+                                            <p>We are committed to supporting mental health and the profoundly
+                                                restorative effect that nature has for those living with painful
+                                                personal challenges. Raising awareness. Providing support. Helping to
+                                                stamp out stigmas, one step at a time.</p>
+                                            <p>Our mission has always been to inspire, connect and uplift people through
+                                                fragrance. And so, our work with mental health charities over the past
+                                                decade is a natural evolution of this mission. To help nurture
+                                                vulnerable members of the community. To help young people talk about
+                                                their feelings. To create gardens where people can discover the
+                                                restorative effects of nature.</p>
+                                            <p>To date Jo Malone London has donated the equivalent of over $2 million to
+                                                our mental health charities globally, helping to raise awareness and
+                                                stamp out stigmas. We are proud to extend our charitable programme to
+                                                North America, specifically focusing on supporting adolescents, where
+                                                75% of mental health problems begin by age 24[1]. Providing support.
+                                                Empowering people to recover. Reconnect. Grow.</p>
+                                        </dd>
+                                    </dl>
+                                    <span></span>
+                                </div>
+                                <div class="tab-pane row" id="tab1">
+                                    <dl class="col-xs-7 col-md-8">
+                                        <dt>Our Sustainable</dt>
+                                        <dd>
+                                            <p>We know that we have a responsibility to protect our environment and to
+                                                take a considered approach when creating our products.
+                                                It’s a work in progress but we are committed to do better, working to
+                                                center responsible practices that lessen our environmental impact at the
+                                                heart of our company.</p>
+                                            <p>Kindness is woven through the fabric of everything we do; from recycled
+                                                and recyclable packaging, to our commitment to making products in
+                                                facilities that celebrate the use of renewable energy and seek to reduce
+                                                emissions,
+                                                to better transparency around our responsibly sourced ingredients and
+                                                respect for local communities and the environment.</p>
+                                            <p>We are constantly reviewing our sustainability standards to ensure they
+                                                are ever evolving. And, as a company with a proud British heritage,
+                                                we are determined to deepen our commitment to Made in Britain through
+                                                our production and ingredient selection.
+                                                The natural world will forever be our muse and we hope to play a part in
+                                                protecting it.
+                                                We want you to feel confident that Jo Malone London products have been
+                                                produced under acceptable conditions, so we ensure that our third-party
+                                                supplies comply with our Code of Conduct. </p>
+                                        </dd>
+                                    </dl>
+                                    <img class="col-xs-5 col-md-4" src="./images/Our_Values2.jpg" alt="Our Sustainable Practice">
+                                    <span></span>
+                                </div>
+                                <div class="tab-pane row" id="tab2">
+                                    <img class="col-xs-5 col-md-4" src="./images/Our_Values3.jpg" alt="Our People & Our Workplace">
+                                    <dl class="col-xs-7 col-md-8">
+                                        <dt>Our People</dt>
+                                        <dd>
+                                            <p>At Jo Malone London we have always thought of ourselves as a family for
+                                                whom kindness is paramount. We are committed to cultivating creativity
+                                                and openness in a collaborative and welcoming workplace that embraces
+                                                inclusivity and diversity.</p>
+                                            <p>We are proud to nurture talent and support the wellbeing of our teams
+                                                through our commitment to family support and flexibility, our
+                                                championing of female leadership and our focus on protecting the mental
+                                                health of our employees with our internal mental health initiatives. Our
+                                                hope is to create a community where everyone is celebrated for their
+                                                individuality.</p>
+                                            <p>We are proud to be a business grown out of kindness. The spirit of
+                                                generosity is woven through the fabric of everything we are and
+                                                everything we do. Each product we make is developed with self-care in
+                                                mind, whether it’s looking after yourself or treating someone
+                                                else.Beyond that, we hope to ensure that we communicate messages of
+                                                kindness and support consistently among our community.</p>
+                                        </dd>
+                                    </dl>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- menu2 -->
+                    <div class="wp3 delay-05s row" id="menu3">
+                        <h3 class="text-center">Our Stories</h3>
+                        <div class="our_values_inner">
+                        <div class="container">
+                            <div class="panel-group col-xs-7" id="accordion">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="btn1" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                                Up The Garden Path
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                            <p>Shona Heath On Her Latest Collection</p>
+                                            <p>‘Up the garden path’ a collection of candle accessories by set designer
+                                                Shona Heath celebrates the heady magic of an English country garden.</p>
+                                            <p>In this surreal wonderland of flora and fauna, flowers have cross pollinated
+                                                with humans and animals, and then proceed to have a jolly old time frolicking
+                                                in nature.</p>
+                                            <p>Based on a short story written by Heath, the unusual ceramic items
+                                                from the collection include the paint splattered ‘Lesser Spotted Zebra
+                                                Diffuser Cover’ with a striped punk inspired hairstyle, and the ‘Blue
+                                                Sandwich Duo Tray’ filled with rose and bluebell flowers.</p>
+                                            <p> “The name is a metaphor for being led astray,” says Heath on the story
+                                                and concept behind the collection. “It’s based on these two characters, Mr
+                                                De vingles and Lily. He’s rather stuffy and she’s this polite prim girl.
+                                                They walk down the garden path together, and he falls in the roses, something
+                                                overcomes him, and he changes into a much nicer person.” Of course, the
+                                                pair end up not only as great friends but also transform into flower people,
+                                                with petals for hair and stems for arms and legs. “It's a tiny bit
+                                                psychedelic and not meant to be taken seriously,” says Heath who was inspired by the
+                                                illustrations of Francois Pinet and the peculiar flower people which
+                                                inhabit his work. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="btn2" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                                No Place Like Home
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse ">
+                                        <div class="panel-body">
+                                            <p>Introducing Townhouse Diffusers</p>
+                                            <p>When the time came to create a new collection of candles specially for
+                                                the home,</p> 
+                                                <p>we didn’t have to look much further than our headquarters, a
+                                                Georgian townhouse in the heart of Marylebone.</p>
+                                            <p>With its formal entrance, sweeping
+                                                staircase, and well-proportioned rooms which are simultaneously cosy and
+                                                intimate, yet also, grand and impressive, the Townhouse is not just the
+                                                brand’s headquarters but also our spiritual home. Today, the Jo Malone
+                                                London Townhouse functions as a busy creative workspace while also
+                                                retaining the special ambience of the traditional English home that it was
+                                                designed to be over 200 years ago.</p>
+                                            <p>After the success of the Townhouse Candle collection, inspired by scenes
+                                                and spaces within the brand’s home, we are very pleased to announce the
+                                                arrival of the the Townhouse Diffuser collection. This collection of 3 diffusers
+                                                will gently enrich the atmosphere of any space with the steady scents of
+                                                Wild Berry & Bramble, Fresh Fig & Cassis and Lilac Lavender & Lovage.
+                                                Think of Wild Berry & Bramble as your ‘welcome home’, the scent for any
+                                                hour, the style for any place. Fresh Fig & Cassis recalls a ‘sunlit
+                                                morning’ and the late summer nostalgia of fig trees embraced by the sun with a
+                                                freshness on the breeze.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="btn3" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                                Garden Treasure
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseThree" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <p>The Story Of Rhubarb</p>
+                                            <p>As night descends, a treasure from the soil waits to be snapped from its
+                                            roots.</p> 
+                                            <p>Concealed under bell-shaped jars and with only the soft glow of
+                                            candlelight by which to perform this moonlight harvest, fuchsia stems like
+                                            tart sticks of rock from nature’s sweet jar are gathered.</p>
+                                            <p>This is a practice developed to make rhubarb sweeter. Grown and picked in
+                                            the absence of light encourages the release of glucose – and the rewards
+                                            speak for themselves. What now feels like a familiar occupant of a classic
+                                            English kitchen garden was once one of the world’s most sought-after
+                                            treasures. This is a plant with a story in two parts.
+                                            First things first. Rhubarb is not a fruit.</p> 
+                                            <p>It is in fact, a vegetable. Its
+                                            evolution has been a long and curious one, first heralded in traditional
+                                            Chinese medicine thousands of years ago, where it appears in ancient medical
+                                            books as a trophy of the Earth’s apothecary. Believed to clear toxins and
+                                            support digestion, it was used to treat emperors and kings with its
+                                            astringent, cleansing properties.
+                                            At Jo Malone London, for our Tangy Rhubarb Cologne we’ve decided to match 
+                                            this glorious, unruly wonder-stem with citrussy orange and soulful cedarwood 
+                                            for a tart, zingy freshness. Eccentric, bright and arch in all its marvellous tartness.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                <ul class="gallery col-xs-5">
+                                    <li class="link1"><a href="#"><img src="./images/Our_Stories1.jpg" alt=''></a></li>
+                                    <li class="link2"><a href="#"><img src="./images/Our_Stories2.jpg" alt=''></a></li>
+                                    <li class="link3"><a href="#"><img src="./images/Our_Stories3.jpg" alt=''></a></li>
+                                </ul>
+                        </div>
+                    </div><!-- our_values_inner -->
+                    </div><!-- menu3 -->
+                    <div class="wp4 delay-05s" id="menu4">
+                        <div class="meet_our_stylists_inner">
+                            <h3 class="text-center">Meet Our Stylists</h3>
+                            <p class="text-center text-muted">All our Stylists are excited to help you navigate the world of Jo Malone London.</p>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4">
+                                    <div class="thumbnail">
+                                        <img src="./images/Meet_Our_Stylists1.jpg" alt="James">
+                                        <div class="caption">
+                                            <dl>
+                                                <dt class="text-center">James</dt>
+                                                <dd class="text-center text-muted">Stylist since 2006</dd>
+                                                <dd>From helping clients find a favorite fragrance pairing, to indulging brides in a Scent
+                                                    Your Wedding service, to even helping celebrities create the #perfectpresent each
+                                                    Holiday season, James is excited to assist you! His must-have scents are Wood Sage & Sea
+                                                    Salt paired with 154.</dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4">
+                                    <div class="thumbnail">
+                                        <img src="./images/Meet_Our_Stylists2.jpg" alt="Terry">
+                                        <div class="caption">
+                                            <dl>
+                                                <dt class="text-center">Terry</dt>
+                                                <dd class="text-center text-muted">Stylist since 2010</dd>
+                                                <dd>Terry loves to share his passion for fragrance with clients. His favorite Jo Malone
+                                                    scent pairing is Wood Sage & Sea Salt body crème with Blackberry & Bay cologne.</dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4">
+                                    <div class="thumbnail">
+                                        <img src="./images/Meet_Our_Stylists3.jpg" alt="Allison">
+                                        <div class="caption">
+                                            <dl>
+                                                <dt class="text-center">Allison</dt>
+                                                <dd class="text-center text-muted">Stylist since 2015</dd>
+                                                <dd>Allison is excited to share effortless ways to scent and refresh your home, creating the
+                                                    perfect atmosphere for the everyday and special occasions. Her go-to scent is English
+                                                    Pear & Freesia.</dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row hidden-xs">
+                                <div class="col-sm-6 col-md-4">
+                                    <div class="thumbnail">
+                                        <img src="./images/Meet_Our_Stylists4.jpg" alt="Colby">
+                                        <div class="caption">
+                                            <dl>
+                                                <dt class="text-center">Colby</dt>
+                                                <dd class="text-center text-muted">Stylist since 2015</dd>
+                                                <dd>Colby finds joy in helping clients find the perfect scent and creating new, exciting
+                                                    pairings to express all the different facets of your personality. Her must-have Jo
+                                                    Malone product is the Green Tomato Vine candle, which grounds her and reminds her of
+                                                    home.</dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4">
+                                    <div class="thumbnail">
+                                        <img src="./images/Meet_Our_Stylists5.jpg" alt="Keara">
+                                        <div class="caption">
+                                            <dl>
+                                                <dt class="text-center">Keara</dt>
+                                                <dd class="text-center text-muted">Stylist since 2018</dd>
+                                                <dd>Keara is honored to guide you through a personalized fragrance journey, discovering
+                                                    scents for you, your home, and any special moment in your life. Her mellow and verdant
+                                                    signature Jo Malone scent is English Pear & Freesia Cologne paired with Blackberry & Bay
+                                                    body crème.</dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hidden-sm col-md-4">
+                                    <div class="thumbnail">
+                                        <img src="./images/Meet_Our_Stylists6.jpg" alt="Ashley">
+                                        <div class="caption">
+                                            <dl>
+                                                <dt class="text-center">Ashley</dt>
+                                                <dd class="text-center text-muted">Stylist since 2018</dd>
+                                                <dd>Ashley is thrilled to share fragrance combining tips and tricks for to help you create
+                                                    bespoke scents for yourself and your home. Ashley’s signature scent is delicate Wild
+                                                    Bluebell, paired with zesty Lime Basil & Mandarin body crème.</dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- container -->
+                    </div><!-- menu4 -->
+                </div><!-- scrollcontent -->
+            </article>
+            <footer id="footerArea">
+                <a class="top_move text-center" href="javascript:void(0);">TOP</a>
+                <ul class="text-center">
+                    <li><a href="index.html"><img src="./images/logo.png" alt="logo"></a></li>
+                    <li>Terms and conditions</li>
+                    <li>Personal information handling policy</li>
+                    <li>User information</li>
+                    <li>email privacy@estee.com</li>
+                </ul>
+            </footer>
+        </div>
+    </div><!-- wrap -->
+    <script>
+        $(document).ready(function(){
+            $('.wp1 .about').waypoint(function (){$('.wp1 .about').addClass('animated fadeInDown');},{offset:'50%'});
+            $('.wp1 .container').waypoint(function (){$('.wp1 .container').addClass('animated fadeInLeft');},{offset:'80%'});
+            $('.wp2').waypoint(function (){$('.wp2').addClass('animated fadeInRight');},{offset:'75%'});
+            $('.wp3').waypoint(function (){$('.wp3').addClass('animated fadeInLeft');},{offset:'50%'});
+            $('.wp4').waypoint(function (){$('.wp4').addClass('animated fadeInRight');},{offset:'75%'});
+            $('.top_move').click(function(){$('html,body').stop().animate({'scrollTop':0},1000);});
+            var imageCount=3; var cnt=1; 
+            $('.gallery .link1').fadeIn('slow'); 
+            $('.panel-title').click(function(event){
+	        var $target=$(event.target);
+	        for(var i=1;i<=imageCount;i++){$('.gallery .link'+i).hide();} if($target.is('.btn1')){cnt=1;} else if($target.is('.btn2')){cnt=2;} else if($target.is('.btn3')){cnt=3;}
+	        $('.gallery .link'+cnt).fadeIn('slow');
+	       for(var i=1;i<=imageCount;i++){$('#accordion .panel-title a'+i).css({'background':'#e9e6e4','color':'#09181b'});}$('#accordion .panel-title a'+cnt).css({'background':'#09181b','color':'#e9e6e4'});});
+     });    
+    </script>
+</body>
+</html>

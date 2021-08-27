@@ -21,8 +21,7 @@
     @extract($_POST);
 	@extract($_GET);
 	@extract($_SESSION);
-	include "../lib/dbconn.php";
-    
+	include "../lib/dbconn.php";    
 	if (!$scale){
        $scale=10; 			// 한 화면에 표시되는 글 수
 	}
@@ -32,7 +31,10 @@
 		{echo("<script>
 				 window.alert('검색할 단어를 입력해 주세요!');
 			     history.go(-1);
-				</script>"); exit;}
+				</script>
+                </head>
+                </html>
+                "); exit;}
 	$sql = "select * from $table where $find like '%$search%' order by num desc";
 	}else{$sql = "select * from $table order by num desc";}
 	$result = mysql_query($sql, $connect);
@@ -100,7 +102,7 @@
                     <option value='name'>이름</option>
 				</select>
 			</div>
-			<div id="list_search4"><input type="text" name="search" placeholder="검색어를 입력해주세요"></div>
+			<div id="list_search4"><label class="hidden" for="search_">검색어입력</label><input type="text" id="search_" name="search_" placeholder="검색어를 입력해주세요"></div>
 			<div id="list_search5"><button type="submit" value="검색"><i class="fa fa-search" aria-hidden="true"></i><span class="hidden">검색</span></button></div>
 		</div>
 		</form>

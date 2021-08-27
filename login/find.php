@@ -1,7 +1,10 @@
 <?
    session_start();
 ?>
-    <meta charset="UTF-8">
+<!DOCTYPE html>
+<html lang="ko">
+<meta charset="utf-8"/>
+<title>유한양행</title>
 <?
   @extract($_GET); 
   @extract($_POST); 
@@ -19,6 +22,7 @@ $hp3='2222'
              window.alert('이름을 입력하세요');
              history.go(-1);
            </script>
+           </html>
          ");
          exit;
    }
@@ -89,7 +93,7 @@ $hp3='2222'
            이름 : $username <br>
            연락처: $userhp <br>
            가입일자 : $date <br>
-           <strong>* 행복한 하루되세요. *</strong>";
-        }
+           <strong>* 행복한 하루되세요. *</strong>           
+           ";}
    }          
 ?>

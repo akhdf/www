@@ -1,0 +1,92 @@
+/* font-family: 'Great Vibes', cursive; */
+body{font-family:Arial, sans-serif;font-size: 16px;position: relative;}
+ul, ol{list-style: none;}
+p{color:#09181b;}
+.hidden, #skipNav{position: absolute; display: block;width:1px; height: 1px;left:-1000%; top:0; overflow: hidden; color: #fff;}
+.wrap{width: 100%;overflow: hidden;position: relative;}
+/* waypoint에서 필요 소스 */
+.wp1, .wp2, .wp3, .wp4, .wp5, .wp6{visibility: hidden; padding-top: 50px;}
+.bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight{visibility: visible;}
+.delay-05s{animation-delay: 0.5s;}
+.delay-1s{animation-delay: 1s;}
+/* 와이드pc */
+#headerArea{width:100%;height:70px; color:#fff; background:rgb(0,0,0,0); overflow:hidden;position:fixed; top:0;z-index:100;}
+#content h3{font-family: 'Great Vibes', cursive; font-size: 65px;}
+/* nav */
+#navbar-example .container{overflow: hidden;}
+#navbar-example .navbar-brand{float: left;margin-top: 1.5%;}
+#navbar-example .collapse{float: right;}
+.navbar-brand>img{width: 168px;}
+.nav h3{font-size: 19px; margin: 0 auto; padding: 10px 0;}
+/* 일반pc */
+@media screen and (max-width:1199px){}
+/* 태블릿 */
+@media screen and (max-width:991px){.nav>li>a{padding:10px;}.nav h3{font-size: 16px;padding: 15px 0;}}
+/* 소형태블릿 */
+@media screen and (max-width:767px){#navbar-example .navbar-brand{margin-left: 5%;margin-top: 0%;}.navbar-header{padding-bottom: 1.22%;}.navbar-toggle{margin-top: 20px;}
+#navbar-example .collapse{float: none;}.nav>li>a{padding-left:6%;}.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{background-color:#eee;}}
+/* 모바일 */
+@media screen and (max-width:640px){}
+/* visual */
+.main_visual .carousel{position: relative;}
+.container-fluid{padding: 0;}
+.icon-prev::before, .icon-next::before{font-size: 80px;}
+.thumbnail{border: 0;}
+.thumbnail .caption{padding: 20px 9px;}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{width: 100%;}
+/* content1 */
+.about{background: #e9e6e4;padding: 50px;margin:50px auto 70px;color: #09181b;}
+.about p{width: 75%;margin: 0 auto;}
+/* content2 */
+.wp2{margin-bottom: 130px;}
+.wp2 h3{font-weight: 700;padding:100px 0 70px;margin-bottom:50px;background: url(../images/Our_Values.jpg) center no-repeat; background-size: cover; background-attachment: fixed;color: #e9e6e4;}
+.wp2 .nav-pills>li.active>a, .wp2 .nav-pills>li.active>a:focus, .wp2 .nav-pills>li.active>a:hover{color: #e9e6e4;  background: #09181b;}
+.wp2 .nav>li>a:focus, .wp2 .nav>li>a:hover{text-decoration: none;color: #e9e6e4;;background: #09181b;}
+.wp2 .nav>li>a{color: #09181b;border-bottom: 1px solid #09181b;border-top: 1px solid #09181b;}
+.wp2 .nav>li>a:focus{color: #e9e6e4;}
+.tab-pane{position: relative;margin-top: 50px;}
+.tab-pane dl{padding: 30px;background: #dad6d3;opacity: 0.9;z-index: 1; margin-top: 75px;}
+.tab-pane dt{position: relative;font-size: 50px;font-family: 'Great Vibes', cursive;top: -71px;right: -5%;}
+.tab-pane dd{padding: 0 16px;margin-top: -63px;}
+.tab-pane dd p{margin-bottom: 15px;}
+.tab-pane span{background:#09181b;width: 127%;height: 460px;position: relative;top: 112px;z-index: -1;display: block;left: -23%;}
+@media screen and (max-width:1199px){.tab-pane dl{margin-top: 35px;}}
+@media screen and (max-width:991px){.tab-pane span{height: 290px;}.tab-pane dd p:nth-child(3){display: none;}}
+@media screen and (max-width:767px){.tab-pane dt{font-size: 40px;top: -60px;}.tab-pane dd{padding: 0px 5px;margin-top: -57px;}}
+@media screen and (max-width:640px){.tab-pane dl{margin-top: 0;}.tab-pane span{height: 210px;}.tab-pane dt{font-size: 35px;position:unset;}.tab-pane dd{margin-top: 28px;}.tab-pane dd p:nth-child(2){display:none;}}
+/* content3 */
+.wp3 h3{font-weight: 700;padding:100px 0 70px;margin-bottom:70px;background: url(../images/Our_Stories.jpg) center no-repeat; background-size: cover; background-attachment: fixed;color: #09181b;}
+.our_values_inner{background: #e9e6e4;padding: 30px 0;}
+.panel-collapse{background: #e9e6e4;}
+a:hover,a:focus{text-decoration: none;outline: none;}
+#accordion .panel{border: none;box-shadow: none;border-radius: 0;margin-bottom: 6px;}
+#accordion .panel-heading{padding: 0;}
+#accordion .panel-title a{font-family:'Great Vibes', cursive;display: block;padding: 20px 40px;background: #e9e6e4;font-size: 24px;
+font-weight: bold;color:#09181b;border-left: 3px solid #09181b;
+position: relative;transition: all 0.3s ease 0s;letter-spacing: 1px;}
+#accordion .panel-title a:before,#accordion .panel-title a.collapsed:before{content: "\f107";font-family: "Font Awesome 5 Free";font-size: 14px;line-height: 24px;position:absolute;top:21px;right:25px;}
+#accordion .panel-title a.collapsed:before{content: "\f106";}
+#accordion .panel-title a:hover,#accordion .panel-title a.collapsed:hover{color: #e9e6e4;background: #09181b;}
+#accordion .panel-title a:hover::before{color: #e9e6e4;}
+#accordion .panel-title a:focus{color: #e9e6e4;background: #09181b;}
+#accordion .panel-body{padding:5px 30px 20px;line-height: 23px;border: 1px solid #e9e6e4;border-top: none;border-left: 3px dashed #d4d0cd;}
+#accordion .panel-body p:nth-child(1){font-style: italic;font-weight: 600;margin-bottom: 10px;}
+#accordion .panel-body p{margin-bottom: 0;}
+@media screen and (max-width:1199px){#accordion .panel-body p:nth-child(5){display: none}}
+@media screen and (max-width:991px){#accordion .panel-body p:nth-child(4){display: none}#accordion .panel-title a{padding: 17px 40px;}
+#accordion .panel-title a:before,#accordion .panel-title a.collapsed:before{top:18px;}}
+@media screen and (max-width:767px){}
+@media screen and (max-width:640px){#accordion .panel-body p:nth-child(3){display: none}}
+.gallery img{box-sizing: border-box;width: 100%;}
+.gallery .link1,.gallery .link2,.gallery .link3{display:none}
+/* content4 */
+.wp4{margin-bottom: 100px;}
+.wp4 .meet_our_stylists_inner{background: url(../images/Meet_Our_Stylists.jpg) center no-repeat; background-size: cover; background-attachment: fixed;margin-bottom: 70px;}
+.wp4 h3{font-weight: 700;padding:100px 0 0;color: #e9e6e4;}
+.wp4 p{padding-bottom: 70px;font-size: 22px;font-style: italic;color: #e9e6e4;}
+/* footer */
+#footerArea{background:#e9e6e4;position:relative;}
+#footerArea .top_move{width: 95px;height: 74px;z-index: 1;border-radius: 50%;font-weight: 700;position: absolute;left: 50%;margin-left: -50px;top: -46px;padding: 20px 0;font-size: 18px;color: #2f2f2f;background: #e9e6e4;}
+#footerArea ul{padding: 35px;margin: 0;}
+#footerArea img{width: 180px;margin-bottom: 15px;}
+

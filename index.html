@@ -4,7 +4,6 @@
 ?>
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,9 +12,12 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="common/css/common.css">
     <link rel="stylesheet" href="maincss/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous"> 
     <script src="./mainjs/mainpopup.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
-        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap');
+    </style>
     <script src="common/js/prefixfree.min.js"></script>
     <!--[if IE 9]>  
           <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -90,7 +92,7 @@
                 <p>Let me introduce you to various products of Yuhan.</p>
                 <div class="product_list">
                     <div class="product_01">
-                        <ul class="a1">
+                        <ul class="product_inner1">
                             <li>
                                 <a href="sub2/sub2_1.html#product_01"><img src="./images/product_01.jpg" alt="안플라그서방정"></a>
                                 <dl>
@@ -114,7 +116,7 @@
                                 </dl>
                             </li>
                         </ul>
-                        <ul class="a2">
+                        <ul class="product_inner2">
                             <li>
                                 <a href="sub2/sub2_1.html#product_02"><img src="./images/product_07.jpg" alt="안플라그서방정"></a>
                                 <dl>
@@ -140,7 +142,7 @@
                                 </dl>
                             </li>
                         </ul>
-                        <ul class="a3">
+                        <ul class="product_inner3">
                             <li>
                                 <a href="sub2/sub2_1.html#product_03"><img src="./images/product_13.jpg" alt="안플라그서방정"></a>
                                 <dl>
@@ -291,8 +293,8 @@
             </section>
 
             <section class="content notice_wrap">
-                <div class="notice">
-                    <? include "lib/func.php"; ?>
+                <? include "./lib/func3.php"; ?>
+                <div class="notice">                   
                     <h3 class="notice_title">notice</h3>
                     <p class="notice_sub_text">Trust and honesty are the way Yuhan treats customers.</p>
                     <ul>
@@ -302,12 +304,10 @@
                 </div>
                 <div class="news">
                     <h3 class="news_title">news</h3>
-                    <p class="news_sub_text">A promise to strive<br>
-                        for the health of the people.</p>
-                    <ul>
-                        <li><a href="greet/list.php"><img src="./images/news.jpg" alt=""></a></li>
-                        <li><a href="greet/list.php"></a><p>안티푸라민 모델 손흥민 발탁</p></li>
-                    </ul>
+                    <p class="news_sub_text">A promise to strive<br>for the health of the people.</p>
+                        <ul>
+                            <? latest_article("concert", 1, 20, 2); ?>
+                        </ul>
                     <a href="greet/list.php" class="news_more">view more</a>
                 </div>
             </section>

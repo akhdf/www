@@ -1,7 +1,10 @@
 <?
    session_start();
 ?>
-<meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="ko">
+<meta charset="utf-8"/>
+<title>유한양행</title>
 <?
    /*
    세션변수
@@ -19,8 +22,9 @@
      echo("
 	   <script>
 	     window.alert('로그인 후 이용하세요.');
-	     history.go(-1);
+	     history.go(-1);       
 	   </script>
+     </html>
 	 ");
 	 exit;
    }   
@@ -41,5 +45,4 @@
 	   </script>
 	";
 ?>
-
    

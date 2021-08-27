@@ -55,18 +55,21 @@ $(document).ready(function() {
 
 // 네비
 $(document).ready(function(){    
-const hamburger = document.querySelector(".menuOpen");
-const navLinks = document.querySelector(".mainMenu");
-const links = document.querySelectorAll(".mainMenu li");
+   const hamburger = document.querySelector(".menuOpen");
+   const navLinks = document.querySelector(".mainMenu");
+   const links = document.querySelectorAll(".mainMenu li");
 
-hamburger.addEventListener('click', (e) => {
-	e.preventDefault();
-	//Animate Links
-	navLinks.classList.toggle("open");
-	links.forEach(link => {
-		link.classList.toggle("fade");
-	});
-	//Hamburger Animation
-	hamburger.classList.toggle("toggle");
-});
+   hamburger.addEventListener('click', function(e){
+      e.preventDefault();
+      // $('.mainMenu').css('display','block');
+   
+      //Animate Links
+      navLinks.classList.toggle("open");
+      links.forEach(function(link){
+         link.classList.toggle("fade");
+      });
+   
+      //Hamburger Animation
+      hamburger.classList.toggle("toggle");
+   });
 });

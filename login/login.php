@@ -1,7 +1,10 @@
 ﻿<?
            session_start();
 ?>
-<meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="ko">
+<meta charset="utf-8"/>
+<title>유한양행</title>
 <?
   @extract($_GET); 
   @extract($_POST); 
@@ -18,6 +21,7 @@
              window.alert('아이디를 입력하세요.');
              history.go(-1);
            </script>
+           </html>
          ");
          exit;
    }
@@ -91,7 +95,7 @@
               <script>
 			          alert('로그인이 되었습니다.');
                 location.href = '../index.html';
-              </script>
+              </script>              
            ");
         }
    }          

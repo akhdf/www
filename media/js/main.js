@@ -20,7 +20,7 @@ $(document).ready(function() {
         $("#content").css('margin-top',screenHeight);       
     if( screenSize >= 768 && current==false){        
       $("#videoBG").show();
-      $("#videoBG").attr('src','images/aaa.mp4');
+      $("#videoBG").attr('src','images/visual.mp4');
       $("#imgBG").hide();
       current=true;
     }
@@ -118,17 +118,18 @@ const hamburger = document.querySelector(".menuOpen");
 const navLinks = document.querySelector(".mainMenu");
 const links = document.querySelectorAll(".mainMenu li");
 
-hamburger.addEventListener('click', ()=>{
-    // $('.mainMenu').css('display','block');
+hamburger.addEventListener('click', function(e){
+   e.preventDefault();
+   // $('.mainMenu').css('display','block');
 
    //Animate Links
-    navLinks.classList.toggle("open");
-    links.forEach(link => {
-        link.classList.toggle("fade");
-    });
+   navLinks.classList.toggle("open");
+   links.forEach(function(link){
+      link.classList.toggle("fade");
+   });
 
-    //Hamburger Animation
-    hamburger.classList.toggle("toggle");
+   //Hamburger Animation
+   hamburger.classList.toggle("toggle");
 });
 });
 
