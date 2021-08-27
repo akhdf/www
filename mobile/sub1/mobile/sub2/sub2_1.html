@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>유한양행</title>
+
+    <link rel="apple-touch-icon-precomposed" href="app_icon.png">
+    <link rel="apple-touch-startup-image" href="startup.png">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./css/sub2_1content.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script>
+        // <![CDATA[
+        try { window.addEventListener('load', function () { setTimeout(scrollTo, 0, 0, 1); }, false); }
+        catch (e) { }
+  // ]]>
+    </script>
+    <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+    <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+<body>
+    <div id="wrap">
+        <!-- 서브헤더영역 -->
+        <? include "../common/sub_head.html" ?>
+        <div class="visual">
+            <h2>제품소개</h2>
+            <ul class="sub_nav">
+                <li class="current"><a href="sub2_1.html">제품정보</a></li>
+                <li class=""><a href="sub2_2.html">브랜드</a></li>
+            </ul>
+        </div>
+
+            <div class="content_area">
+                <h3>제품정보</h3>
+                <div class="tab_menu">
+                    <ul>
+                        <li class="current"><a class="tab tab1" href="#">전문의약품</a></li>
+                        <li><a class="tab tab2" href="#">일반의약품</a></li>
+                        <li><a class="tab tab3" href="#">건강기능식품</a></li>
+                    </ul>
+                   </div>
+                <div id="product_box"></div>
+            <div id="operate"><script src="./js/sub2_json.js"></script></div>
+        </div>
+        </article>
+        <!-- 서브푸터영역 -->
+        <? include "../common/sub_foot.html" ?>
+    </div>
+    <!--JQuery-->
+   <script src="../common/js/jquery-1.12.4.min.js"></script>
+   <script src="../common/js/jquery-migrate-1.4.1.min.js"></script>
+   <script src="../common/js/sub_fullnav.js"></script>
+</body>
+</html>

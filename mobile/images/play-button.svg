@@ -1,0 +1,12 @@
+<svg width="31" height="31" xmlns="http://www.w3.org/2000/svg" stroke="null" style="vector-effect: non-scaling-stroke;">
+
+ <g stroke="null">
+  <title stroke="null">background</title>
+  <rect stroke="null" fill="none" id="canvas_background" height="33" width="33" y="-1" x="-1"/>
+ </g>
+ <g stroke="null">
+  <title stroke="null">Layer 1</title>
+  <circle fill-opacity="0" stroke="#1365bb" id="svg_1" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" r="13.549088" fill="#000000" cy="15.5" cx="15.5"/>
+  <polygon fill-opacity="0.5" stroke="#1365bb" id="svg_2" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" points="10.959817290306091,7.928591728210449 22.316931128501892,15.5 10.959817290306091,23.071409225463867 10.959817290306091,7.928591728210449 " fill="none"/>
+ </g>
+</svg>

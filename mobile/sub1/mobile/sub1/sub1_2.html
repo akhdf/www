@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>유한양행</title>
+
+    <link rel="apple-touch-icon-precomposed" href="app_icon.png">
+    <link rel="apple-touch-startup-image" href="startup.png">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./css/sub1_2content.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=d320923d8aa468c9becb6251801eb2c3"></script>
+    <script src="./js/map.js"></script>
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script>
+        // <![CDATA[
+        try { window.addEventListener('load', function () { setTimeout(scrollTo, 0, 0, 1); }, false); }
+        catch (e) { }
+  // ]]>
+    </script>
+    <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+    <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <div class="wrap">
+        <!-- 서브헤더영역 -->
+        <? include "../common/sub_head.html" ?>
+        <div class="visual">
+            <h2>오시는길</h2>
+            <ul class="sub_nav">
+                <li><a href="sub1_1.html">회사개요</a></li>
+                <li class="current"><a href="sub1_2.html">오시는길</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+            <div class="content_area">
+                <h3>오시는길</h3>
+                <div id="map"></div>        
+                <div class="map_inner">
+                    <p><span><i class="fas fa-building"></i></span>(주)유한양행</p>
+                    <table class="traffic">
+                        <tbody>
+                            <tr>
+                                <th scope="row"><i class="fas fa-map-marker-alt"></i>주소</th>
+                                <td>서울특별시 동작구 노량진로 74 (대방동)</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><i class="fas fa-phone"></i>연락처</th>
+                                <td>02)828-0181</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><i class="fas fa-fax"></i>팩스</th>
+                                <td>02)828-0300</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="table_wrap_01">
+                    <p><span><i class="fas fa-bus"></i></span>지하철 이용시</p>
+                    <table class="traffic">
+                        <caption class="hidden">지하철로 찾아오시는 방법</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">호선</th>
+                                <th scope="col">오시는길</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1호선</th>
+                                <td>대방역 2번출구로 나와 노량진 방향으로 600m</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">9호선</th>
+                                <td>노량진역 6번 출구로 나와 대방역 방향으로 500m</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="table_wrap_02">
+                    <p><span><i class="fas fa-car"></i></span>버스 이용시</p>
+                    <table class="car">
+                        <caption class="hidden">버스로 찾아오시는 방법</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">버스노선</th>
+                                <th scope="col">오시는길</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">간선</th>
+                                <td>150, 605, 640, 641, 650, 462, 507, 360</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">지선</th>
+                                <td>6515, 5531, 6211, 6411</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">광역</th>
+                                <td>9408</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">마을</th>
+                                <td>9408</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </article>
+        <!-- 서브푸터영역 -->
+        <? include "../common/sub_foot.html" ?>
+    </div>
+    <!--JQuery-->
+   <script src="../common/js/jquery-1.12.4.min.js"></script>
+   <script src="../common/js/jquery-migrate-1.4.1.min.js"></script>
+   <script src="../common/js/sub_fullnav.js"></script>
+</body>
+</html>
